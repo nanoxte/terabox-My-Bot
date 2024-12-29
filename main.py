@@ -95,7 +95,7 @@ async def handle_link(update: Update, context: CallbackContext) -> None:
 def main() -> None:
     # Get the port from the environment variable or use default
     port = int(os.environ.get('PORT', 8080))  # Default to port 8080
-    webhook_url = f"https://total-jessalyn-toxiccdeveloperr-36046375.koyeb.app/{TOKEN}"  # Replace with your server URL
+    webhook_url = f"https://willing-maddy-seeutech-03b32440.koyeb.app/{TOKEN}"  # Replace with your server URL
 
     # Create the Application and pass it your bot's token
     app = ApplicationBuilder().token(TOKEN).build()
